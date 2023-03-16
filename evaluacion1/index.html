@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluacion1</title>
+    <style>
+        .logo{
+            width: 40px;
+            height: 40px;
+        }
+        .input {
+        position: relative;
+        margin-left: 40%;
+        width: 200px;
+        border: 1px solid black;
+        padding: 3px;
+        height: 540px;
+        }
+        .input:after {
+        content: '';
+        display: block;
+        padding-bottom: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar fixed-top sticky-top" style="background: linear-gradient(200deg, rgba(72,72,72,1) 22%, rgba(59,59,59,1) 54%, rgba(3,3,3,1) 100%);"> 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.lifeinvader.com/profile/legendary_motorsport" style="color: white;">
+             <img src="1.jpg" style="height: 60px; width: 150px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: 4px solid white;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header" style="background-color: rgb(15, 15, 15);">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="background-color: rgb(15, 15, 15); color: white;">Links</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="border: 3px solid white;"></button>
+            </div>
+            <div class="offcanvas-body" style="background-color: rgb(117, 117, 117); color: white;">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="">Pagina principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.youtube.com/watch?v=B10JWPjiqZM">Importante ver</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Links
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.ferrari.com/es-ES">Scuderia Ferrari <img src="ferrari.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://cars.mclaren.com/es-es">McLaren Racing Limited <img src="McLaren.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://www.bugatti.com/">Bugatti <img src="Bugatti.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://www.lamborghini.com/es-en">Lamborghini <img src="lamborghini.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://www.koenigsegg.com/">Koenigsegg <img src="Koenigsegg.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://www.porsche.com/mexico/">Porsche <img src="porsche.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://www.audi.com.mx/mx/web/es.html">Audi <img src="Audi.png" class="logo"></a></li>
+                    <li><a class="dropdown-item" href="https://www.bmw.com/es/index.html">Bayerische Motoren Werke <img src="BMW.png" class="logo"></a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/Autom%C3%B3vil">Concepto</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    <!----------------------------------------------------------------->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Jesko.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Koenigsegg Jesko</h5>
+              <p>Es un automóvil superdeportivo con motor central-trasero de producción limitada, construido por el fabricante de automóviles sueco Koenigsegg,</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="720S.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>McLaren 720S</h5>
+              <p>Es un automóvil superdeportivo biplaza, con motor central-trasero montado longitudinalmente y tracción trasera, desarrollado y producido por fabricante británico McLaren Automotive.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="tsuru.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nissan Tsuru V16</h5>
+              <p>Es un automóvil del segmento A sedán de bajo costo comercializado en América del Norte y América del Sur, caracterizado por su trayectoria de gran éxito comercial a nivel mundial.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <br>
+
+    <!----------------------------------------------------------------->
+
+    <div class="input">
+        <p>Nombre del usuario</p>
+        <input type="text" value="Escribe aqui"> <br>
+        <p>Edad</p>
+        <input type="number" name="quantity" min="0" max="116"> <br> <br>
+        <p>¿Conoce estas marcas de automoviles?</p>
+        <input type="checkbox" name="opcion []">I Nissan<br>
+        <input type="checkbox" name="opcion []">I Toyota<br>
+        <input type="checkbox" name="opcion []">I Ford<br>
+        <input type="checkbox" name="opcion []">I Volkswagen<br>
+        <input type="checkbox" name="opcion []">I Hyundai<br>
+        <input type="checkbox" name="opcion []">I Jeep<br>
+        <input type="checkbox" name="opcion []">I Honda<br> <br>
+        <p>Color que prefiere en un automovil</p>
+        <input type="color" name="" id="">
+        <input type="submit" value="Confirmar">
+    </div>
+
+
+
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
