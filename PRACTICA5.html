@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Gato</title>
+    <style>
+        input[type="text"]{
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 30px;
+        }
+        table, tr, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            border-top: 8px;
+        }
+    </style>
+</head>
+<body width ="25%">
+
+    <h1>JUEGO DEL GATO</h1>
+
+    <form action="practica5.php" method="POST">
+        <table>
+            <tr>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+                <td><input type="text" name="cuadro[]" value="X" ></td>
+            </tr>
+        </table>
+        <br><input type="submit" value="Revisar">
+    </form>
+
+</body>
+</html>
